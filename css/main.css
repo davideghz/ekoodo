@@ -10,6 +10,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 html {
     color: #222;
     font-size: 1em;
@@ -97,10 +99,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: #40a4e8;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
 
-
-
+.Main img {
+  width: 50%;
+}
 
 
 
